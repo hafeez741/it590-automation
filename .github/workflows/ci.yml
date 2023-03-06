@@ -37,4 +37,4 @@ jobs:
         env:
           gcloud_token: ${{ secrets.TOKEN }}
         run: |
-          assignment10/run.sh  $gcloud_token
+          assignment10/run.sh  $gcloud_token ${{ secrets.ID }}
